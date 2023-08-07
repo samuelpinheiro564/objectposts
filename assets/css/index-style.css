@@ -11,23 +11,21 @@ h1{
     color: #d30000;;
 }
 #postForm{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
 width: 100%;
+max-width: 500px;
 padding: 20px;
 border: 1px solid #ccc;
 border-radius: 8px;
 background-color: #ffffff;
 }
-label,input,
+label,
+input,
 textarea{
     display: block;
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
+  
 }
 textarea{
     resize: none;
@@ -36,12 +34,18 @@ button{
     background-color: #d30000;
     cursor:pointer;
     color: #ffffff;
-    width: 100%;
-    padding: 0.33rem;
+   width: 100%;
+    padding: 0.25rem;
     border-radius: 8px;
 }
 button:hover{
 background-color: #a00000;
 
+}
+main{
 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }

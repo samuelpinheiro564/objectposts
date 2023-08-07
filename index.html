@@ -11,28 +11,31 @@
 </head>
 
 <body>
-    <h1>Próximos Posts</h1>
-    <div id="postForm">
-        <div>
-            <label for="title">Título</label>
-            <input type="text" id="title" name="title" required>
-        </div>
-        <div>
-            <label for="resume">Resumo</label>
-            <input type="text" id="resumo" name="resume" rows="4" required></textarea>
-        </div>
-        <div>
-            <label for="publisher">Publicador</label>
-            <input type="text" id="publisher" name="publisher" required>
-        </div>
-        <div>
-            <label for="date">Data</label>
-            <input type="date" id="date" name="date" required>
-        </div>
-        <button>Cadastrar</button>
+    <main>
+        <h1>Próximos Posts</h1>
+        <div id="postForm">
+            <div>
+                <label for="title">Título</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div>
+                <label for="resume">Resumo</label>
+                <textarea type="text" id="resumo" name="resume" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="publisher">Publicador</label>
+                <input type="text" id="publisher" name="publisher" required>
+            </div>
+            <div>
+                <label for="date">Data</label>
+                <input type="date" id="date" name="date" required>
+            </div>
 
-    </div>
-<div id="list"></div>
+            <button onclick="savePost()">Cadastrar</button>
+
+        </div>
+        <div id="list"></div>
+    </main>
 </body>
 
 </html>
