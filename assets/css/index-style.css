@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f0f0f0;
+}
+h1{
+    text-align: center;
+    color: #d30000;;
+}
+#postForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 8px;
+background-color: #ffffff;
+}
+label,input,
+textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: #d30000;
+    cursor:pointer;
+    color: #ffffff;
+    width: 100%;
+    padding: 0.33rem;
+    border-radius: 8px;
+}
+button:hover{
+background-color: #a00000;
+
+
+}
