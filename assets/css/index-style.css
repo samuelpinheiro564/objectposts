@@ -49,3 +49,20 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+.post{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+ margin-bottom: 10px;
+    
+}
+
+.post h2 {
+    color: #d30000;
+    margin-bottom: 5px ;
+}
+.post button {
+    background-color: #d30000;
+    color: #f0f0f0;
+    
+}
